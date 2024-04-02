@@ -1,5 +1,6 @@
 let initialState = {
    contactList: [],
+   keyword: '',
 }
 let nextId = 1
 function reducer(state = initialState, action) {

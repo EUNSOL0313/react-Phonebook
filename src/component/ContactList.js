@@ -23,7 +23,7 @@ const ContactList = () => {
       <div>
          <SearchBox />
          <div className="contact-list">
-            <p>num:{filteredList.length}</p>
+            num:{filteredList.length}
             {filteredList.map((item, index) => (
                <ContactItem item={item} key={index} />
             ))}
